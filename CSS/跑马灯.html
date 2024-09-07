@@ -1,0 +1,59 @@
+<div class="marquee">
+    <div class="marquee-content">
+        这是⼀个跑⻢灯效果的例⼦⽂字，可以循环滚动显示。
+    </div>
+</div>
+<style>
+    /* 设置跑⻢灯容器的样式 */
+    .marquee {
+        width: 300px;
+        /* 跑⻢灯的宽度 */
+        overflow: hidden;
+        /* 隐藏超出容器的内容 */
+        white-space: nowrap;
+        /* 禁⽌⽂字换⾏ */
+        border: 1px solid #000;
+        /* 可选：添加边框 */
+        position: relative;
+        /* 相对定位 */
+    }
+
+    /* 设置滚动内容的样式和动画 */
+    .marquee-content {
+        display: inline-block;
+        /* 将内容设为⾏内块级元素 */
+        padding-left: 100%;
+        /* 初始位置从右边界之外开始 */
+        animation: marquee 10s linear infinite;
+        /* 设定动画，10秒完成⼀次循环，线性
+   动画，⽆限循环 */
+    }
+
+    /* 定义滚动动画 */
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+            /* 起始位置 */
+        }
+
+        25% {
+            transform: translateX(-25%);
+            /* 移动到容器宽度的四分之⼀ */
+        }
+
+        50% {
+            transform: translateX(-50%);
+            /* 移动到容器宽度的⼀半 */
+        }
+
+        75% {
+            transform: translateX(-75%);
+            /* 移动到容器宽度的四分之三 */
+        }
+
+        100% {
+            transform: translateX(-100%);
+            /* 移动到容器外部 */
+        }
+    }
+</style>
