@@ -26,7 +26,25 @@
            <!-- <CustomInput></CustomInput> -->
             <!-- <DateTimePicker></DateTimePicker> -->
              <!-- <DOM></DOM> -->
-              <DOM2></DOM2>
+              <!-- <DOM2></DOM2> -->
+               <!-- <Ref></Ref> -->
+                <!-- <Reactive></Reactive> -->
+                 <!-- <MethodsNoArg></MethodsNoArg> -->
+                  <!-- <MethodsWithArg></MethodsWithArg> -->
+      <!-- <StateAndMethods></StateAndMethods> -->
+       <!-- <BasicCondition></BasicCondition> -->
+        <!-- <IfElseCondition></IfElseCondition> -->
+         <!-- <ArrayListRender></ArrayListRender> -->
+          <!-- <ObjectArrayRender></ObjectArrayRender> -->
+           <!-- <IndexRender></IndexRender> -->
+            <!-- <ConditionAndListRender></ConditionAndListRender> -->
+             <!-- <ComputedPrice></ComputedPrice> -->
+              <!-- <ComputedTypeDeclare></ComputedTypeDeclare> -->
+               <!-- <WatchInput></WatchInput> -->
+                <!-- <WatchMultiState></WatchMultiState> -->
+                 <!-- <DeepWatch></DeepWatch> -->
+                  <ImmediatelyWatch></ImmediatelyWatch>
+
 
   </div>
 </template>
@@ -59,5 +77,22 @@ import CustomInput from './components/CustomInput.vue';
 import DateTimePicker from './components/DateTimePicker.vue';
 import DOM from './components/DOM.vue';
 import DOM2 from './components/DOM2.vue';
+import Ref from './components/Ref.vue';
+import Reactive from './components/Reactive.vue';
+import MethodsNoArg from './components/MethodsNoArg.vue';
+import MethodsWithArg from './components/MethodsWithArg.vue';
+import StateAndMethods from './components/StateAndMethods.vue';
+import BasicCondition from './components/BasicCondition.vue';
+import IfElseCondition from './components/IfElseCondition.vue';
+import ArrayListRender from './components/ArrayListRender.vue';
+import ObjectArrayRender from './components/ObjectArrayRender.vue';
+import IndexRender from './components/IndexRender.vue';
+import ConditionAndListRender from './components/ConditionAndListRender.vue';
+import ComputedPrice from './components/ComputedPrice.vue';
+import ComputedTypeDeclare from './components/ComputedTypeDeclare.vue';
+import WatchInput from './components/WatchInput.vue';
+import WatchMultiState from './components/WatchMultiState.vue';
+import DeepWatch from './components/DeepWatch.vue';
+import ImmediatelyWatch from './components/ImmediatelyWatch.vue';
 
 </script>
